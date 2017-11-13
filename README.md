@@ -52,7 +52,7 @@ See the [changelog](CHANGELOG.md) for changes.
 
 **Add the library to your project**
 
-Add the [NuGet Package](https://www.nuget.org/packages/CrystalReports.Shared/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'Pictograms' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package CrystalReports.Shared)
+Add the [NuGet Package](https://www.nuget.org/packages/CrystalReports.Shared/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'CrystalReports' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package CrystalReports.Shared)
 
 ### Bugs and feature requests
 
