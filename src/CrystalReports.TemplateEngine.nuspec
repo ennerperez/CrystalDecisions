@@ -1,27 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package
-  xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>CrystalReports.ReportAppServer.CubeDefModel</id>
+    <id>CrystalReports.TemplateEngine</id>
     <version>$version$</version>
-    <title>CrystalReports ReportAppServer CubeDefModel</title>
+    <title>CrystalReports TemplateEngine</title>
     <authors>Enner Pérez</authors>
     <owners>SAP</owners>
     <licenseUrl>https://www.sap.com/about/legal/copyright.html</licenseUrl>
     <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>SAP CrystalReports ReportAppServer CubeDefModel</description>
+    <description>SAP CrystalReports TemplateEngine</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
     <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
-    <dependencies>
-      <dependency id="CrystalReports.ReportAppServer.CommonObjectModel" version="$version$" />
-      <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
-    </dependencies>
   </metadata>
   <files>
-    <file src="lib\CrystalDecisions.ReportAppServer.CubeDefModel\$version$.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.CubeDefModel.dll" target="lib\net20\CrystalDecisions.ReportAppServer.CubeDefModel.dll" />
+    <file src="..\lib\CrystalDecisions.CrystalReports.TemplateEngine\13.0.3500.0__692fbea5521e1304\CrystalDecisions.CrystalReports.TemplateEngine.dll" target="lib\net20\CrystalDecisions.CrystalReports.TemplateEngine.dll" />
   </files>
 </package>

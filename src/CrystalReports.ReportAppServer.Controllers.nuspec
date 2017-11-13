@@ -25,6 +25,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="lib\CrystalDecisions.ReportAppServer.Controllers\$version$.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.Controllers.dll" target="lib\net20\CrystalDecisions.ReportAppServer.Controllers.dll" />
+    <file src="..\lib\CrystalDecisions.ReportAppServer.Controllers\13.0.3500.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.Controllers.dll" target="lib\net20\CrystalDecisions.ReportAppServer.Controllers.dll" />
   </files>
 </package>
