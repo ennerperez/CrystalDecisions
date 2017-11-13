@@ -45,7 +45,7 @@ Task("Build-NuGet-Packages")
                 {
                     OutputDirectory = buildDir,
                     IncludeReferencedProjects = false,
-                    Version = crVersion,
+                    Version = version,
                     Properties = new Dictionary<string, string>()
                     {{ "Configuration", configuration }}
                 };
