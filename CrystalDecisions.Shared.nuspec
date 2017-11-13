@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.8.1">
+    <id>CrystalDecisions.Shared</id>
+    <version>$version$</version>
+    <title>CrystalDecisions Shared</title>
+    <authors>Enner Pérez</authors>
+    <owners>SAP</owners>
+    <licenseUrl>https://www.sap.com/about/legal/copyright.html</licenseUrl>
+    <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>SAP CrystalDecisions Shared</description>
+    <summary>Crystal Reports for .NET Framework</summary>
+    <releaseNotes />
+    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
+    <dependencies>
+      <dependency id="CrystalDecisions.ReportAppServer.DataDefModel" version="$version$" />
+      <dependency id="CrystalDecisions.ReportAppServer.Controllers" version="$version$" />
+      <dependency id="log4net" version="1.2.10" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="lib\CrystalDecisions.Shared\$version$.0__692fbea5521e1304\CrystalDecisions.Shared.dll" target="lib\net20\CrystalDecisions.Shared.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_cs_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\cs\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_da_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\da\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_de_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\de\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_en_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\en\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_es_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\es\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_fi_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\fi\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_fr_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\fr\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_hu_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\hu\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_it_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\it\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_ja_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\ja\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_ko_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\ko\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_nl_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\nl\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_pl_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\pl\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_pt_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\pt\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_ru_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\ru\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_sk_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\sk\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_sv_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\sv\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_th_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\th\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_tr_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\tr\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_nb-NO_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\nb-NO\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_zh-CHS_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\zh-CHS\CrystalDecisions.Shared.resources.dll" />
+    <file src="lib\CrystalDecisions.Shared.resources\$version$.0_zh-CHT_692fbea5521e1304\CrystalDecisions.Shared.resources.dll" target="lib\net20\zh-CHT\CrystalDecisions.Shared.resources.dll" />
+  </files>
+</package>
