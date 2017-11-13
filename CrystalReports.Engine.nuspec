@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>CrystalDecisions.CrystalReports.Engine</id>
+    <id>CrystalReports.Engine</id>
     <version>$version$</version>
     <title>CrystalReports Engine</title>
     <authors>Enner Pérez</authors>
@@ -16,18 +16,18 @@
     <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <dependency id="CrystalDecisions.Shared" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.DataSetConversion" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.CommonObjectModel" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.DataDefModel" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.Controllers" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.XmlSerialize" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.ReportDefModel" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.ClientDoc" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.CommLayer" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.CubeDefModel" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.Prompting" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.ObjectFactory" version="$version$" />
+      <dependency id="CrystalReports.Shared" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.DataSetConversion" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.CommonObjectModel" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.Controllers" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.XmlSerialize" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.ReportDefModel" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.ClientDoc" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.CommLayer" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.CubeDefModel" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.Prompting" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.ObjectFactory" version="$version$" />
     </dependencies>
   </metadata>
   <files>
