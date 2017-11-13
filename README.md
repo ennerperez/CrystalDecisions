@@ -2,7 +2,7 @@
 # Crystal Reports NuGets Packages for .NET Framework
 
 [![Build status](https://ci.appveyor.com/api/projects/status/h2ydmki2dm7hs6wd?svg=true)](https://ci.appveyor.com/project/ennerperez/CrystalDecisions)
-[![NuGet](http://img.shields.io/nuget/v/CrystalDecisions.Shared.svg)](https://www.nuget.org/packages/CrystalDecisions.Shared/)
+[![NuGet](http://img.shields.io/nuget/v/CrystalReports.Shared.svg)](https://www.nuget.org/packages/CrystalReports.Shared/)
 
 ---------------------------------------
 
@@ -17,6 +17,10 @@ See the [changelog](CHANGELOG.md) for changes.
 - CrystalReports
     - Engine
     - TemplateEngine
+    - ReportSource
+    - Shared
+    - Web
+    - Windows.Forms
 - ReportAppServer
     - CliendDoc
     - CommLayer
@@ -30,14 +34,10 @@ See the [changelog](CHANGELOG.md) for changes.
     - Prompting
     - ReportDefModel
     - XmlSerialize
-- ReportSource
-- Shared
-- Web
-- Windows.Forms
 
 ## And also
 
-- CrystalDecisions.FlashControlV71
+- FlashControlV71
 - SAP BusinessObjects WPF Viewer
 - SAP BusinessObjects WPF ViewerShared
 
@@ -52,7 +52,7 @@ See the [changelog](CHANGELOG.md) for changes.
 
 **Add the library to your project**
 
-Add the [NuGet Package](https://www.nuget.org/packages/CrystalDecisions.Shared/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'Pictograms' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package CrystalDecisions.Shared)
+Add the [NuGet Package](https://www.nuget.org/packages/CrystalReports.Shared/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'Pictograms' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package CrystalReports.Shared)
 
 ### Bugs and feature requests
 
