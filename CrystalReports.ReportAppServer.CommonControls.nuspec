@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+<package 
+  xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>CrystalDecisions.CrystalReports.TemplateEngine</id>
+    <id>CrystalReports.ReportAppServer.CommonControls</id>
     <version>$version$</version>
-    <title>CrystalReports TemplateEngine</title>
+    <title>CrystalReports ReportAppServer CommonControls</title>
     <authors>Enner Pérez</authors>
     <owners>SAP</owners>
     <licenseUrl>https://www.sap.com/about/legal/copyright.html</licenseUrl>
     <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>SAP CrystalReports TemplateEngine</description>
+    <description>SAP CrystalReports ReportAppServer CommonControls</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
     <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
-    <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
+    <tags>SAP CrystalReports Crystal Reports</tags>
   </metadata>
   <files>
-    <file src="lib\CrystalDecisions.CrystalReports.TemplateEngine\$version$.0__692fbea5521e1304\CrystalDecisions.CrystalReports.TemplateEngine.dll" target="lib\net20\CrystalDecisions.CrystalReports.TemplateEngine.dll" />
+    <file src="lib\CrystalDecisions.ReportAppServer.CommonControls\$version$.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.CommonControls.dll" target="lib\net20\CrystalDecisions.ReportAppServer.CommonControls.dll" />
   </files>
 </package>

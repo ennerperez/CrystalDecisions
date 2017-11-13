@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>CrystalDecisions.Shared</id>
+    <id>CrystalReports.Shared</id>
     <version>$version$</version>
     <title>CrystalDecisions Shared</title>
     <authors>Enner Pérez</authors>
@@ -10,14 +10,14 @@
     <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>SAP CrystalDecisions Shared</description>
+    <description>SAP CrystalReports Shared</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
     <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <dependency id="CrystalDecisions.ReportAppServer.DataDefModel" version="$version$" />
-      <dependency id="CrystalDecisions.ReportAppServer.Controllers" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
+      <dependency id="CrystalReports.ReportAppServer.Controllers" version="$version$" />
       <dependency id="log4net" version="1.2.10" />
     </dependencies>
   </metadata>
