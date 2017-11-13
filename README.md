@@ -1,6 +1,9 @@
 ![logo](.editoricon.png)
 # Crystal Reports NuGets Packages for .NET Framework
 
+[![Build status](https://ci.appveyor.com/api/projects/status/h2ydmki2dm7hs6wd?svg=true)](https://ci.appveyor.com/project/ennerperez/CrystalDecisions)
+[![NuGet](http://img.shields.io/nuget/v/CrystalDecisions.Shared.svg)](https://www.nuget.org/packages/CrystalDecisions.Shared/)
+
 ---------------------------------------
 
 See the [changelog](CHANGELOG.md) for changes.
