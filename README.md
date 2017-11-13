@@ -1,4 +1,6 @@
+
 ![logo](.editoricon.png)
+
 # Crystal Reports NuGets Packages for .NET Framework
 
 [![Build status](https://ci.appveyor.com/api/projects/status/h2ydmki2dm7hs6wd?svg=true)](https://ci.appveyor.com/project/ennerperez/CrystalDecisions)
@@ -10,7 +12,7 @@ See the [changelog](CHANGELOG.md) for changes.
 
 ## Versions
 
-- 13.0.3500.0
+- [13.0.3500.0](VERSION)
 
 ## Featuring
 

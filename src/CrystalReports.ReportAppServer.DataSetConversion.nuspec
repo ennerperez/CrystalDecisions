@@ -27,6 +27,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="lib\CrystalDecisions.ReportAppServer.DataSetConversion\$version$.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataSetConversion.dll" target="lib\net20\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
+    <file src="..\lib\CrystalDecisions.ReportAppServer.DataSetConversion\13.0.3500.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataSetConversion.dll" target="lib\net20\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
   </files>
 </package>

@@ -38,7 +38,7 @@ Task("Build-NuGet-Packages")
     .IsDependentOn("Clean")
     .Does(() =>
     {
-            foreach (var file in new System.IO.DirectoryInfo(@".").GetFiles("*.nuspec"))
+            foreach (var file in new System.IO.DirectoryInfo(@".\src").GetFiles("*.nuspec"))
             {
 				var path = file.Directory;
                 var nuGetPackSettings = new NuGetPackSettings()
