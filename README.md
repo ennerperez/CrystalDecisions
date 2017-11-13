@@ -21,6 +21,8 @@ See the [changelog](CHANGELOG.md) for changes.
     - Shared
     - Web
     - Windows.Forms
+    - WPF.ViewerShared
+    - WPF.Viewer
 - ReportAppServer
     - CliendDoc
     - CommLayer
@@ -38,8 +40,6 @@ See the [changelog](CHANGELOG.md) for changes.
 ## And also
 
 - FlashControlV71
-- SAP BusinessObjects WPF Viewer
-- SAP BusinessObjects WPF ViewerShared
 
 ## Table of contents
 

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
-    <id>SAPBusinessObjects.WPF.ViewerShared</id>
+    <id>CrystalReports.WPF.ViewerShared</id>
     <version>$version$</version>
     <title>SAP BusinessObjects WPF ViewerShared</title>
     <authors>Enner Pérez</authors>
@@ -16,8 +16,8 @@
     <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <dependency id="CrystalDecisions.FlashControlV71" version="$version$" />
-      <dependency id="CrystalDecisions.Shared" version="$version$" />
+      <dependency id="CrystalReports.FlashControlV71" version="$version$" />
+      <dependency id="CrystalReports.Shared" version="$version$" />
     </dependencies>
   </metadata>
   <files>
