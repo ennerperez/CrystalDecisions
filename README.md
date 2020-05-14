@@ -10,9 +10,20 @@
 
 See the [changelog](CHANGELOG.md) for changes.
 
+## Information
+
+These packages are not officially supported by SAP, nor are they final distributable, their purpose is to provide the developer with references to the Crystal Reports Runtime DLLs, for automated compilation environments where the installation of this component cannot be performed.
+
+## Installers
+
+- [CRforVS13SP27](https://akall.softwaredownloads.sap.com/?file=0020000000543482020&downloadId=972f4661-396c-48bd-87fa-bd73c706f351&v=001&u=D18155884555&path=002/2020/0000000006/000000054348/001/CRforVS13SP27_0-10010309.EXE)
+- [CR13SP27MSI64](https://akall.softwaredownloads.sap.com/?file=0020000000543422020&downloadId=b694b602-eee8-4fc8-8a3e-9ac1240c8f0d&v=001&u=D79007728963&path=002/2020/0000000006/000000054342/001/CR13SP27MSI64_0-10010309.MSI)
+- [CR13SP27MSI32](https://akall.softwaredownloads.sap.com/?file=0020000000543412020&downloadId=7d4cceca-6514-4cf8-94ec-c2069e3358c2&v=001&u=D14803498946&path=002/2020/0000000006/000000054341/001/CR13SP27MSI32_0-10010309.MSI)
+
+
 ## Versions
 
-- [13.0.3500.0](VERSION)
+- [13.0.4000.0](VERSION)
 
 ## Featuring
 
