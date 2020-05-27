@@ -14,11 +14,11 @@
     <description>SAP BusinessObjects WPF ViewerShared</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0">
-        <dependency id="CrystalReports.FlashControlV71" version="$version$" />
+        <dependency id="CrystalReports.AxShockwaveFlashObjects" version="$version$" />
         <dependency id="CrystalReports.Shared" version="$version$" />
       </group>
     </dependencies>
@@ -30,28 +30,29 @@
     <file src="..\README.md" target="README.md" />
     <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
     <!-- libs -->
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared\13.0.3500.0__692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.dll" target="lib\net40\SAPBusinessObjects.WPF.ViewerShared.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_cs_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\cs\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_da_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\da\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_de_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\de\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_en_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\en\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_es_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\es\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_fi_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\fi\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_fr_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\fr\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_hu_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\hu\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_it_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\it\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_ja_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ja\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_ko_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ko\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_nl_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\nl\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_pl_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\pl\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_pt_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\pt\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_ru_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ru\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_sk_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\sk\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_sv_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\sv\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_th_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\th\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_tr_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\tr\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_nb-NO_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\nb-NO\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_zh-CHS_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\zh-CHS\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
-    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\13.0.3500.0_zh-CHT_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\zh-CHT\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared\v4.0_13.0.4000.0__692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.dll" target="lib\net40\SAPBusinessObjects.WPF.ViewerShared.dll" />
+    <!-- resources -->
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_cs_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\cs\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_da_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\da\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_de_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\de\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_en_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\en\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_es_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\es\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_fi_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\fi\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_fr_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\fr\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_hu_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\hu\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_it_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\it\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_ja_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ja\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_ko_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ko\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_nb-NO_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\nb-NO\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_nl_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\nl\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_pl_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\pl\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_pt_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\pt\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_ru_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\ru\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_sk_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\sk\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_sv_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\sv\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_th_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\th\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_tr_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\tr\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_zh-CHS_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\zh-CHS\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
+    <file src="..\lib\SAPBusinessObjects.WPF.ViewerShared.resources\v4.0_13.0.4000.0_zh-CHT_692fbea5521e1304\SAPBusinessObjects.WPF.ViewerShared.resources.dll" target="lib\net40\zh-CHT\SAPBusinessObjects.WPF.ViewerShared.resources.dll" />
   </files>
 </package>
