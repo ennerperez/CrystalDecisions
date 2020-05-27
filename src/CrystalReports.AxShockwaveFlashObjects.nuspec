@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.12">
-    <id>CrystalReports.FlashControlV71</id>
+    <id>CrystalReports.AxShockwaveFlashObjects</id>
     <version>$version$</version>
-    <title>CrystalReports FlashControlV71</title>
+    <title>Ax Shockwave Flash Objects</title>
     <authors>Enner Pérez</authors>
     <owners>SAP</owners>
     <license type="file">LICENSE</license>
@@ -11,13 +11,15 @@
     <repository type="git" url="https://github.com/ennerperez/CrystalDecisions" />
     <icon>.editoricon.png</icon>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <description>SAP CrystalReports FlashControlV71</description>
+    <description>SAP CrystalReports Design</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="CrystalReports.ShockwaveFlashObjects" version="$version$" />
+      </group>
     </dependencies>
   </metadata>
   <files>
@@ -27,7 +29,6 @@
     <file src="..\README.md" target="README.md" />
     <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
     <!-- libs -->
-    <file src="..\lib\FlashControlV71\1.0.3187.32366__692fbea5521e1304\FlashControlV71.dll" target="lib\net40\FlashControlV71.dll" />
-    <file src="..\lib\ShockwaveFlashObjects\1.0.0.0__692fbea5521e1304\ShockwaveFlashObjects.dll" target="lib\net40\ShockwaveFlashObjects.dll" />
+    <file src="..\lib\AxShockwaveFlashObjects\v4.0_1.0.0.0__692fbea5521e1304\AxShockwaveFlashObjects.dll" target="lib\net40\AxShockwaveFlashObjects.dll" />
   </files>
 </package>
