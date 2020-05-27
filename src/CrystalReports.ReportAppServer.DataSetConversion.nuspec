@@ -14,16 +14,16 @@
     <description>SAP CrystalReports ReportAppServer DataSetConversion</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0">
         <dependency id="CrystalReports.Shared" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.ClientDoc" version="$version$" />
         <dependency id="CrystalReports.ReportAppServer.Controllers" version="$version$" />
-        <dependency id="CrystalReports.ReportAppServer.ReportDefModel" version="$version$" />
         <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
         <dependency id="CrystalReports.ReportAppServer.ObjectFactory" version="$version$" />
-        <dependency id="CrystalReports.ReportAppServer.ClientDoc" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.ReportDefModel" version="$version$" />
         <dependency id="CrystalReports.ReportAppServer.XmlSerialize" version="$version$" />
       </group>
     </dependencies>
@@ -35,6 +35,6 @@
     <file src="..\README.md" target="README.md" />
     <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
     <!-- libs -->
-    <file src="..\lib\CrystalDecisions.ReportAppServer.DataSetConversion\13.0.3500.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataSetConversion.dll" target="lib\net40\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
+    <file src="..\lib\CrystalDecisions.ReportAppServer.DataSetConversion\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.DataSetConversion.dll" target="lib\net40\CrystalDecisions.ReportAppServer.DataSetConversion.dll" />
   </files>
 </package>
