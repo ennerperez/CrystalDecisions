@@ -1,51 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package  xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
-  <metadata minClientVersion="2.8.1">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
     <id>CrystalReports.ReportSource</id>
     <version>$version$</version>
     <title>CrystalReports ReportSource</title>
     <authors>Enner Pérez</authors>
     <owners>SAP</owners>
-    <licenseUrl>https://www.sap.com/about/legal/copyright.html</licenseUrl>
+    <license type="file">LICENSE</license>
     <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
+    <repository type="git" url="https://github.com/ennerperez/CrystalDecisions" />
+    <icon>.editoricon.png</icon>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>SAP CrystalReports ReportSource</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <dependency id="CrystalReports.Engine" version="$version$" />
-      <dependency id="CrystalReports.ReportAppServer.Controllers" version="$version$" />
-      <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
-      <dependency id="CrystalReports.ReportAppServer.ClientDoc" version="$version$" />
-      <dependency id="CrystalReports.ReportAppServer.XmlSerialize" version="$version$" />
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="CrystalReports.Engine" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.ClientDoc" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.CommonObjectModel" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.Controllers" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.DataDefModel" version="$version$" />
+        <dependency id="CrystalReports.ReportAppServer.XmlSerialize" version="$version$" />
+      </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\lib\CrystalDecisions.ReportSource\13.0.3500.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll" target="lib\net20\CrystalDecisions.ReportSource.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_cs_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\cs\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_da_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\da\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_de_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\de\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_en_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\en\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_es_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\es\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_fi_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\fi\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_fr_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\fr\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_hu_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\hu\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_it_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\it\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_ja_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\ja\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_ko_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\ko\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_nl_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\nl\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_pl_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\pl\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_pt_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\pt\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_ru_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\ru\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_sk_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\sk\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_sv_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\sv\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_th_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\th\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_tr_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\tr\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_nb-NO_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\nb-NO\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_zh-CHS_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\zh-CHS\CrystalDecisions.ReportSource.resources.dll" />
-    <file src="..\lib\CrystalDecisions.ReportSource.resources\13.0.3500.0_zh-CHT_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net20\zh-CHT\CrystalDecisions.ReportSource.resources.dll" />
+    <!-- files -->
+    <file src=".editoricon.png" target=".editoricon.png" />
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src="..\README.md" target="README.md" />
+    <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
+    <!-- libs -->
+    <file src="..\lib\CrystalDecisions.ReportSource\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll" target="lib\net40\CrystalDecisions.ReportSource.dll" />
+    <!-- resources -->
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_cs_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\cs\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_da_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\da\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_de_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\de\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_en_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\en\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_es_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\es\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_fi_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\fi\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_fr_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\fr\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_hu_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\hu\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_it_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\it\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_ja_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\ja\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_ko_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\ko\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_nb-NO_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\nb-NO\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_nl_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\nl\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_pl_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\pl\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_pt_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\pt\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_ru_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\ru\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_sk_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\sk\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_sv_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\sv\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_th_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\th\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_tr_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\tr\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_zh-CHS_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\zh-CHS\CrystalDecisions.ReportSource.resources.dll" />
+    <file src="..\lib\CrystalDecisions.ReportSource.resources\v4.0_13.0.4000.0_zh-CHT_692fbea5521e1304\CrystalDecisions.ReportSource.resources.dll" target="lib\net40\zh-CHT\CrystalDecisions.ReportSource.resources.dll" />
   </files>
 </package>

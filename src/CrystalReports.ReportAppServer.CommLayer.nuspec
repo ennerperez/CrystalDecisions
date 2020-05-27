@@ -1,26 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package 
-  xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
-  <metadata minClientVersion="2.8.1">
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
     <id>CrystalReports.ReportAppServer.CommLayer</id>
     <version>$version$</version>
     <title>CrystalReports ReportAppServer CommLayer</title>
     <authors>Enner Pérez</authors>
     <owners>SAP</owners>
-    <licenseUrl>https://www.sap.com/about/legal/copyright.html</licenseUrl>
+    <license type="file">LICENSE</license>
     <projectUrl>http://www.crystalreports.com/crvs/confirm/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/ennerperez/crystaldecisions/master/src/.editoricon.png</iconUrl>
+    <repository type="git" url="https://github.com/ennerperez/CrystalDecisions" />
+    <icon>.editoricon.png</icon>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>SAP CrystalReports ReportAppServer CommLayer</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2014 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
-      <dependency id="CrystalReports.ReportAppServer.CommonObjectModel" version="$version$" />
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="CrystalReports.ReportAppServer.CommonObjectModel" version="$version$" />
+      </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\lib\CrystalDecisions.ReportAppServer.CommLayer\13.0.3500.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.CommLayer.dll" target="lib\net20\CrystalDecisions.ReportAppServer.CommLayer.dll" />
+    <!-- files -->
+    <file src=".editoricon.png" target=".editoricon.png" />
+    <file src="..\LICENSE" target="LICENSE" />
+    <file src="..\README.md" target="README.md" />
+    <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
+    <!-- libs -->
+    <file src="..\lib\CrystalDecisions.ReportAppServer.CommLayer\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.CommLayer.dll" target="lib\net40\CrystalDecisions.ReportAppServer.CommLayer.dll" />
   </files>
 </package>
