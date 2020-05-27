@@ -37,6 +37,7 @@ These packages are not officially supported by SAP, nor are they final distribut
   - WPF.ViewerShared
   - WPF.Viewer
 - ReportAppServer
+  - Enterprise Viewing ReportSource
   - CliendDoc
   - CommLayer
   - CommonControls
@@ -49,10 +50,6 @@ These packages are not officially supported by SAP, nor are they final distribut
   - Prompting
   - ReportDefModel
   - XmlSerialize
-
-## And also
-
-- FlashControlV71
 
 ## Table of contents
 
