@@ -14,7 +14,7 @@
     <description>SAP CrystalReports ReportAppServer CommonObjectModel</description>
     <summary>Crystal Reports for .NET Framework</summary>
     <releaseNotes />
-    <copyright>Copyright © 1995-2020 SAP BusinessObjects</copyright>
+    <copyright>Copyright © 1995-2021 SAP BusinessObjects</copyright>
     <tags>SAP CrystalDecisions CrystalReports Crystal Reports</tags>
     <dependencies>
       <group targetFramework=".NETFramework4.0" />
