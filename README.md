@@ -16,10 +16,11 @@ These packages are not officially supported by SAP, nor are they final distribut
 
 ## Installers
 
-- [CRforVS13SP27](https://akall.softwaredownloads.sap.com/?file=0020000000543482020&downloadId=972f4661-396c-48bd-87fa-bd73c706f351&v=001&u=D18155884555&path=002/2020/0000000006/000000054348/001/CRforVS13SP27_0-10010309.EXE)
-- [CR13SP27MSI64](https://akall.softwaredownloads.sap.com/?file=0020000000543422020&downloadId=b694b602-eee8-4fc8-8a3e-9ac1240c8f0d&v=001&u=D79007728963&path=002/2020/0000000006/000000054342/001/CR13SP27MSI64_0-10010309.MSI)
-- [CR13SP27MSI32](https://akall.softwaredownloads.sap.com/?file=0020000000543412020&downloadId=7d4cceca-6514-4cf8-94ec-c2069e3358c2&v=001&u=D14803498946&path=002/2020/0000000006/000000054341/001/CR13SP27MSI32_0-10010309.MSI)
+[How to download and Install Crystal Report Runtime](https://www.tektutorialshub.com/crystal-reports/how-to-download-and-install-crystal-report-runtime/)
 
+- [CRforVS13SP30](https://akall.softwaredownloads.sap.com/?file=0020000000195612021&downloadId=bc0a55ce-e36b-4e7b-8992-ec1a65b116e8&v=1&u=D10632577458&path=002/2021/0000000002/000000019561/001/CRforVS13SP30_0-10010309.EXE)
+- [CR13SP30MSI64](https://akall.softwaredownloads.sap.com/?file=0020000000195602021&downloadId=46f60844-0ae6-47a2-912b-f547efef34eb&v=1&u=D58379955487&path=002/2021/0000000002/000000019560/001/CR13SP30MSI64_0-10010309.MSI)
+- [CR13SP30MSI32](https://akall.softwaredownloads.sap.com/?file=0020000000195592021&downloadId=015059b0-4c87-4eff-a721-bd5c9c7aee29&v=1&u=D67824045738&path=002/2021/0000000002/000000019559/001/CR13SP30MSI32_0-10010309.MSI)
 
 ## Versions
 
@@ -38,7 +39,7 @@ These packages are not officially supported by SAP, nor are they final distribut
   - WPF.Viewer
 - ReportAppServer
   - Enterprise Viewing ReportSource
-  - CliendDoc
+  - ClientDoc
   - CommLayer
   - CommonControls
   - CommonObjectModel
@@ -53,14 +54,20 @@ These packages are not officially supported by SAP, nor are they final distribut
 
 ## Table of contents
 
-- [Implementing](#implementing)
-- [Bugs and feature requests](#bugs-and-feature-requests)
-- [Documentation](#documentation)
-- [License](#license)
+- [Crystal Reports NuGets Packages for .NET Framework](#crystal-reports-nugets-packages-for-net-framework)
+  - [Information](#information)
+  - [Installers](#installers)
+  - [Versions](#versions)
+  - [Featuring](#featuring)
+  - [Table of contents](#table-of-contents)
+    - [Implementing](#implementing)
+    - [Bugs and feature requests](#bugs-and-feature-requests)
+    - [Documentation](#documentation)
+    - [License](#license)
 
 ### Implementing
 
-** Add the library to your project **
+**Add the library to your project**
 
 Add the [NuGet Package](https://www.nuget.org/packages/CrystalReports.Shared/). Right click on your project and click 'Manage NuGet Packages...'. Search for 'CrystalReports' and click on install. Once installed the library will be included in your project references. (Or install it through the package manager console: PM> Install-Package CrystalReports.Shared)
 
