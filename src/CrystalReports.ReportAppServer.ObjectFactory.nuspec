@@ -27,6 +27,6 @@
     <file src="..\README.md" target="README.md" />
     <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
     <!-- libs -->
-    <file src="..\lib\CrystalDecisions.ReportAppServer.ObjectFactory\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.ObjectFactory.dll" target="lib\net40\CrystalDecisions.ReportAppServer.ObjectFactory.dll" />
+    <file src="..\lib\CrystalDecisions.ReportAppServer.ObjectFactory\v4.0_13.0.33.4485__692fbea5521e1304\CrystalDecisions.ReportAppServer.ObjectFactory.dll" target="lib\net40\CrystalDecisions.ReportAppServer.ObjectFactory.dll" />
   </files>
 </package>
