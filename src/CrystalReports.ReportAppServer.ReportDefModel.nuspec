@@ -31,6 +31,6 @@
     <file src="..\README.md" target="README.md" />
     <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
     <!-- libs -->
-    <file src="..\lib\CrystalDecisions.ReportAppServer.ReportDefModel\v4.0_13.0.4000.0__692fbea5521e1304\CrystalDecisions.ReportAppServer.ReportDefModel.dll" target="lib\net40\CrystalDecisions.ReportAppServer.ReportDefModel.dll" />
+    <file src="..\lib\CrystalDecisions.ReportAppServer.ReportDefModel\v4.0_13.0.33.4485__692fbea5521e1304\CrystalDecisions.ReportAppServer.ReportDefModel.dll" target="lib\net40\CrystalDecisions.ReportAppServer.ReportDefModel.dll" />
   </files>
 </package>
