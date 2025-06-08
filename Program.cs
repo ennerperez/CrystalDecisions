@@ -69,6 +69,22 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
+app.MapGet("/delivery-note", () =>
+{
+    string rptPath = Path.Combine(AppContext.BaseDirectory, "Reports", "DeliveryNote.rpt");
+    ReportDocument report = new();
+    report.Load(rptPath);
+
+    // Configure connection to SAP HANA using the HDBODBC32 driver
+    // Replace placeholders with your connection details
+    report.SetDatabaseLogon("hanauser", "hanapassword", "HANASERVER", "HANADB");
+
+    Stream pdf = report.ExportToStream(ExportFormatType.PortableDocFormat);
+    pdf.Position = 0;
+    return Results.File(pdf, "application/pdf", "delivery-note.pdf");
+})
+.WithName("GetDeliveryNote");
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
